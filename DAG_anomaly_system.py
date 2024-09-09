@@ -114,6 +114,6 @@ def dag_anomaly_tvoronkova():
                 bot.sendMessage(chat_id=chat_id, text=msg)
                 bot.sendPhoto(chat_id=chat_id, photo=plot_object)
 
-    run_alert(-work_chat)
+    run_alert(work_chat)
     
 dag_anomaly_tvoronkova = dag_anomaly_tvoronkova()
